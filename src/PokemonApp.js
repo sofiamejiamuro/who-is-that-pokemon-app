@@ -1,14 +1,10 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import AppRouter from './routers/AppRouter';
+
 
 const PokemonApp = () => {
   return (
-    <div>
-      <h1>何だこれはポケモン</h1>
-      <Button variant="outlined" color="primary">
-        Search
-      </Button>
-    </div>
+    <AppRouter />
   )
 }
 
